@@ -10,12 +10,6 @@ Here are some guideline mockups
 ![Details Page](https://github.com/simplisafe/frontend-code-challenge/raw/master/details_page.png)
 
 Demo:
-![products](https://user-images.githubusercontent.com/18402098/200345184-2924a510-ab41-4626-afce-fc7b67c5b4d2.gif)
-
-Product List:
-![image](https://user-images.githubusercontent.com/18402098/200317266-cf434616-4741-4b63-abfe-f7b26d016cc2.png)
-
-Product Detail:
-![image](https://user-images.githubusercontent.com/18402098/200317335-ca6fabd3-2cc3-48f8-b48b-da4f2cb354df.png)
+![simplisafe-gallery](https://user-images.githubusercontent.com/18402098/200990633-a56b3175-8f27-409e-a79e-6439258e6983.gif)
 
 
