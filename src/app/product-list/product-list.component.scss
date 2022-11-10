@@ -1,0 +1,14 @@
+.container{
+ h3{
+  text-align: center;
+  }
+.card{
+  margin: 1rem;
+  app-product-card{
+    display: flex;
+    padding: 1rem;
+  }
+}
+}
+
+

@@ -1,0 +1,7 @@
+ <div class="card-image">
+      <a [routerLink]="['/product-detail', product.name]"><img [src]="product.thumbnail_image | formatImage : 'thumbnail images' : '.png'" alt="" /></a>
+  </div>
+  <div class="card-text">
+    <a [routerLink]="['/product-detail', product.name]"  >{{ product.name }}</a>
+  </div>
+

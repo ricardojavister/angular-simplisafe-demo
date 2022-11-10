@@ -1,0 +1,6 @@
+<div class="container">
+  <h3 class="title is-3">Welcome to SimpliSafe, please choose a product</h3>
+  <div class="card" *ngFor="let product of products">
+    <app-product-card [product]="product" ></app-product-card>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+  .card-image{
+      width: 152px;
+      justify-content: center;
+      display: inline-flex;
+      img{
+        height: 100px;
+        width: auto;
+      }
+  }
+  .card-text{
+    margin-left: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+

@@ -1,0 +1,25 @@
+<div class="container">
+  <h3 class="title is-3">{{ product.name}}</h3>
+  <div class="card">
+    <div class="card-image">
+        <figure class="image is-3by2">
+          <img [src]="product.header_image | formatImage : 'header images' : '.jpg'" alt="">
+        </figure>
+    </div>
+    <footer class="card-footer">
+        <span class="card-footer-item">
+          Device Name:{{ product.name }}
+        </span>
+        <span class="card-footer-item">
+          Price:{{ product.price }}
+        </span>
+        <div class="card-footer-item">
+          <span>Features:</span>
+          <ul>
+            <li *ngFor="let item of product.features">{{ item }}</li>
+          </ul>
+        </div>
+    </footer>
+  </div>
+  <button class="button is-primary">Buy Now</button>
+</div>
